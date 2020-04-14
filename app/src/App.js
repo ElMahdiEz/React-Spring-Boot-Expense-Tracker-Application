@@ -5,7 +5,6 @@ import Categories from './Categories';
 import Expenses from './Expenses';
 import AddExpense from './AddExpense';
 import Login from './Login';
-// import Logout from './Logout';
 
 class App extends Component {
     constructor(props) {
@@ -26,7 +25,6 @@ class App extends Component {
                 <Route path="/expenses" exact={true} component={Expenses} />
                 <Route path="/addExpense" exact={true} component={AddExpense} />
                 <Route path="/login" exact={true} component={Login} />
-                {/* <Route path="/logout" exact={true} component={Logout} /> */}
             </Switch>
         </Router>);
     }
